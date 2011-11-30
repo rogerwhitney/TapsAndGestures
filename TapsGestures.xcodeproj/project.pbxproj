@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8152971C1486E8DF0043E44C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8152971B1486E8DF0043E44C /* UIKit.framework */; };
+		8152971E1486E8DF0043E44C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8152971D1486E8DF0043E44C /* Foundation.framework */; };
+		815297201486E8DF0043E44C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8152971F1486E8DF0043E44C /* CoreGraphics.framework */; };
+		815297261486E8DF0043E44C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 815297241486E8DF0043E44C /* InfoPlist.strings */; };
+		815297281486E8DF0043E44C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 815297271486E8DF0043E44C /* main.m */; };
+		8152972C1486E8DF0043E44C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8152972B1486E8DF0043E44C /* AppDelegate.m */; };
+		8152972F1486E8DF0043E44C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8152972E1486E8DF0043E44C /* ViewController.m */; };
+		815297321486E8DF0043E44C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 815297301486E8DF0043E44C /* ViewController.xib */; };
+		8152973A1486E8DF0043E44C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 815297391486E8DF0043E44C /* SenTestingKit.framework */; };
+		8152973B1486E8DF0043E44C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8152971B1486E8DF0043E44C /* UIKit.framework */; };
+		8152973C1486E8DF0043E44C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8152971D1486E8DF0043E44C /* Foundation.framework */; };
+		815297441486E8E00043E44C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 815297421486E8E00043E44C /* InfoPlist.strings */; };
+		815297471486E8E00043E44C /* TapsGesturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 815297461486E8E00043E44C /* TapsGesturesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8152973D1486E8DF0043E44C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8152970E1486E8DF0043E44C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 815297161486E8DF0043E44C;
+			remoteInfo = TapsGestures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		815297171486E8DF0043E44C /* TapsGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapsGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8152971B1486E8DF0043E44C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8152971D1486E8DF0043E44C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8152971F1486E8DF0043E44C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		815297231486E8DF0043E44C /* TapsGestures-Info.plist */ = {isa = PBXFileReference; path = "TapsGestures-Info.plist"; sourceTree = "<group>"; };
+		815297251486E8DF0043E44C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		815297271486E8DF0043E44C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		815297291486E8DF0043E44C /* TapsGestures-Prefix.pch */ = {isa = PBXFileReference; path = "TapsGestures-Prefix.pch"; sourceTree = "<group>"; };
+		8152972A1486E8DF0043E44C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8152972B1486E8DF0043E44C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8152972D1486E8DF0043E44C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		8152972E1486E8DF0043E44C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		815297311486E8DF0043E44C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		815297381486E8DF0043E44C /* TapsGesturesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapsGesturesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		815297391486E8DF0043E44C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		815297411486E8DF0043E44C /* TapsGesturesTests-Info.plist */ = {isa = PBXFileReference; path = "TapsGesturesTests-Info.plist"; sourceTree = "<group>"; };
+		815297431486E8E00043E44C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		815297451486E8E00043E44C /* TapsGesturesTests.h */ = {isa = PBXFileReference; path = TapsGesturesTests.h; sourceTree = "<group>"; };
+		815297461486E8E00043E44C /* TapsGesturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapsGesturesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		815297141486E8DF0043E44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8152971C1486E8DF0043E44C /* UIKit.framework in Frameworks */,
+				8152971E1486E8DF0043E44C /* Foundation.framework in Frameworks */,
+				815297201486E8DF0043E44C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815297341486E8DF0043E44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8152973A1486E8DF0043E44C /* SenTestingKit.framework in Frameworks */,
+				8152973B1486E8DF0043E44C /* UIKit.framework in Frameworks */,
+				8152973C1486E8DF0043E44C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8152970C1486E8DF0043E44C = {
+			isa = PBXGroup;
+			children = (
+				815297211486E8DF0043E44C /* TapsGestures */,
+				8152973F1486E8DF0043E44C /* TapsGesturesTests */,
+				8152971A1486E8DF0043E44C /* Frameworks */,
+				815297181486E8DF0043E44C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		815297181486E8DF0043E44C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				815297171486E8DF0043E44C /* TapsGestures.app */,
+				815297381486E8DF0043E44C /* TapsGesturesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8152971A1486E8DF0043E44C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8152971B1486E8DF0043E44C /* UIKit.framework */,
+				8152971D1486E8DF0043E44C /* Foundation.framework */,
+				8152971F1486E8DF0043E44C /* CoreGraphics.framework */,
+				815297391486E8DF0043E44C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		815297211486E8DF0043E44C /* TapsGestures */ = {
+			isa = PBXGroup;
+			children = (
+				8152972A1486E8DF0043E44C /* AppDelegate.h */,
+				8152972B1486E8DF0043E44C /* AppDelegate.m */,
+				8152972D1486E8DF0043E44C /* ViewController.h */,
+				8152972E1486E8DF0043E44C /* ViewController.m */,
+				815297301486E8DF0043E44C /* ViewController.xib */,
+				815297221486E8DF0043E44C /* Supporting Files */,
+			);
+			path = TapsGestures;
+			sourceTree = "<group>";
+		};
+		815297221486E8DF0043E44C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				815297231486E8DF0043E44C /* TapsGestures-Info.plist */,
+				815297241486E8DF0043E44C /* InfoPlist.strings */,
+				815297271486E8DF0043E44C /* main.m */,
+				815297291486E8DF0043E44C /* TapsGestures-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8152973F1486E8DF0043E44C /* TapsGesturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				815297451486E8E00043E44C /* TapsGesturesTests.h */,
+				815297461486E8E00043E44C /* TapsGesturesTests.m */,
+				815297401486E8DF0043E44C /* Supporting Files */,
+			);
+			path = TapsGesturesTests;
+			sourceTree = "<group>";
+		};
+		815297401486E8DF0043E44C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				815297411486E8DF0043E44C /* TapsGesturesTests-Info.plist */,
+				815297421486E8E00043E44C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		815297161486E8DF0043E44C /* TapsGestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8152974A1486E8E00043E44C /* Build configuration list for PBXNativeTarget "TapsGestures" */;
+			buildPhases = (
+				815297131486E8DF0043E44C /* Sources */,
+				815297141486E8DF0043E44C /* Frameworks */,
+				815297151486E8DF0043E44C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapsGestures;
+			productName = TapsGestures;
+			productReference = 815297171486E8DF0043E44C /* TapsGestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		815297371486E8DF0043E44C /* TapsGesturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8152974D1486E8E00043E44C /* Build configuration list for PBXNativeTarget "TapsGesturesTests" */;
+			buildPhases = (
+				815297331486E8DF0043E44C /* Sources */,
+				815297341486E8DF0043E44C /* Frameworks */,
+				815297351486E8DF0043E44C /* Resources */,
+				815297361486E8DF0043E44C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8152973E1486E8DF0043E44C /* PBXTargetDependency */,
+			);
+			name = TapsGesturesTests;
+			productName = TapsGesturesTests;
+			productReference = 815297381486E8DF0043E44C /* TapsGesturesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8152970E1486E8DF0043E44C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "San Diego State University";
+			};
+			buildConfigurationList = 815297111486E8DF0043E44C /* Build configuration list for PBXProject "TapsGestures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8152970C1486E8DF0043E44C;
+			productRefGroup = 815297181486E8DF0043E44C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				815297161486E8DF0043E44C /* TapsGestures */,
+				815297371486E8DF0043E44C /* TapsGesturesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		815297151486E8DF0043E44C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815297261486E8DF0043E44C /* InfoPlist.strings in Resources */,
+				815297321486E8DF0043E44C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815297351486E8DF0043E44C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815297441486E8E00043E44C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		815297361486E8DF0043E44C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		815297131486E8DF0043E44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815297281486E8DF0043E44C /* main.m in Sources */,
+				8152972C1486E8DF0043E44C /* AppDelegate.m in Sources */,
+				8152972F1486E8DF0043E44C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815297331486E8DF0043E44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815297471486E8E00043E44C /* TapsGesturesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8152973E1486E8DF0043E44C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 815297161486E8DF0043E44C /* TapsGestures */;
+			targetProxy = 8152973D1486E8DF0043E44C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		815297241486E8DF0043E44C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815297251486E8DF0043E44C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		815297301486E8DF0043E44C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815297311486E8DF0043E44C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		815297421486E8E00043E44C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815297431486E8E00043E44C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		815297481486E8E00043E44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		815297491486E8E00043E44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8152974B1486E8E00043E44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapsGestures/TapsGestures-Prefix.pch";
+				INFOPLIST_FILE = "TapsGestures/TapsGestures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8152974C1486E8E00043E44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapsGestures/TapsGestures-Prefix.pch";
+				INFOPLIST_FILE = "TapsGestures/TapsGestures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8152974E1486E8E00043E44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapsGestures.app/TapsGestures";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapsGestures/TapsGestures-Prefix.pch";
+				INFOPLIST_FILE = "TapsGesturesTests/TapsGesturesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8152974F1486E8E00043E44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapsGestures.app/TapsGestures";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapsGestures/TapsGestures-Prefix.pch";
+				INFOPLIST_FILE = "TapsGesturesTests/TapsGesturesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		815297111486E8DF0043E44C /* Build configuration list for PBXProject "TapsGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815297481486E8E00043E44C /* Debug */,
+				815297491486E8E00043E44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8152974A1486E8E00043E44C /* Build configuration list for PBXNativeTarget "TapsGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8152974B1486E8E00043E44C /* Debug */,
+				8152974C1486E8E00043E44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8152974D1486E8E00043E44C /* Build configuration list for PBXNativeTarget "TapsGesturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8152974E1486E8E00043E44C /* Debug */,
+				8152974F1486E8E00043E44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8152970E1486E8DF0043E44C /* Project object */;
+}
