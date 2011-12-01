@@ -35,14 +35,14 @@
 - (void) handlePinchGesture: (UIPinchGestureRecognizer *) sender {
     pinchScale.text = [NSString stringWithFormat:@"%.3f", sender.scale];
     pinchVelocity.text = [NSString stringWithFormat:@"%.3f", sender.velocity];
-    if (isnan(sender.velocity)) return;
-  
-    CGFloat newFontSize;
-    float scaleSpeed = 1.4;
-    if (sender.scale > 1)
-    newFontSize =  pinchText.font.pointSize + (sender.scale)*(sender.velocity)*scaleSpeed;
-    else
-        newFontSize = pinchText.font.pointSize + (2 - sender.scale)*(sender.velocity)*scaleSpeed;
+    static CGFloat initialFontSize;
+    
+    if (sender.state == UIGestureRecognizerStateBegan)
+        {
+        initialFontSize = pinchText.font.pointSize;
+        }
+    CGFloat newFontSize =  initialFontSize * sender.scale;
+    if (isnan(newFontSize)) return;
     if (newFontSize < 5) newFontSize =5;
     if (newFontSize > 1000) newFontSize = 1000;
     pinchText.font = [UIFont systemFontOfSize: newFontSize];
