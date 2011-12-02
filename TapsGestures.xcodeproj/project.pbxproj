@@ -20,6 +20,7 @@
 		8152973C1486E8DF0043E44C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8152971D1486E8DF0043E44C /* Foundation.framework */; };
 		815297441486E8E00043E44C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 815297421486E8E00043E44C /* InfoPlist.strings */; };
 		815297471486E8E00043E44C /* TapsGesturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 815297461486E8E00043E44C /* TapsGesturesTests.m */; };
+		819C460D148879EF00BB48B8 /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C460C148879EF00BB48B8 /* Foo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		815297431486E8E00043E44C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		815297451486E8E00043E44C /* TapsGesturesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapsGesturesTests.h; sourceTree = "<group>"; };
 		815297461486E8E00043E44C /* TapsGesturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapsGesturesTests.m; sourceTree = "<group>"; };
+		819C460B148879EF00BB48B8 /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
+		819C460C148879EF00BB48B8 /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		8152970C1486E8DF0043E44C = {
 			isa = PBXGroup;
 			children = (
+				819C460B148879EF00BB48B8 /* Foo.h */,
+				819C460C148879EF00BB48B8 /* Foo.m */,
 				815297211486E8DF0043E44C /* TapsGestures */,
 				8152973F1486E8DF0043E44C /* TapsGesturesTests */,
 				8152971A1486E8DF0043E44C /* Frameworks */,
@@ -261,6 +266,7 @@
 				815297281486E8DF0043E44C /* main.m in Sources */,
 				8152972C1486E8DF0043E44C /* AppDelegate.m in Sources */,
 				8152972F1486E8DF0043E44C /* ViewController.m in Sources */,
+				819C460D148879EF00BB48B8 /* Foo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +436,7 @@
 				8152974C1486E8E00043E44C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8152974D1486E8E00043E44C /* Build configuration list for PBXNativeTarget "TapsGesturesTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +445,7 @@
 				8152974F1486E8E00043E44C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
